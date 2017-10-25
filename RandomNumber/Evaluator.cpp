@@ -18,8 +18,6 @@ double Evaluator::Evaluate()
 	{
 		x = iGenerator->next();
 		y = iGenerator->next();
-		cout << "Coodonata de pe Ox:" << x << endl;
-		cout << "Coodonata de pe Oy:" << y << endl;
 
 		if ((pow(x, 2) + pow(y, 2)) < 1)
 		{
